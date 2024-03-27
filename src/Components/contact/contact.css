@@ -1,0 +1,40 @@
+.card_contact {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid #313131;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .content_contact {
+    display: flex;
+    flex-direction: column;  
+    /* align-items: flex-start; */
+    gap: 20px;
+    /* color: #e8e8e8; */
+    color: black;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .content_contact .heading {
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: -40px;
+  }
+  
+  .content_contact .para {
+    line-height: 1.5;
+  }
+  
+  .card_contact:hover {
+    box-shadow: 0 0 20px grey;
+    border-color: grey;
+  }
